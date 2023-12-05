@@ -1,0 +1,20 @@
+{
+    "Parameters": {
+        "StageName": "prod",
+        "EndpointInstanceCount": "1",
+        "EndpointInstanceType": "ml.m5.large",
+        "SamplingPercentage": "80",
+        "EnableDataCapture": "true",
+        "SageMakerProjectName": "project-x6",
+        "ModelPackageName": "arn:aws:sagemaker:ap-south-1:294897175072:model-package/project-x6-p-tp8lsnxnforl/1",
+        "ModelExecutionRoleArn": "arn:aws:iam::294897175072:role/service-role/AmazonSageMakerServiceCatalogProductsUseRole",
+        "DataCaptureUploadPath": "s3://sagemaker-project-p-tp8lsnxnforl/datacapture-prod"
+    },
+    "Tags": {
+        "sagemaker:deployment-stage": "prod",
+        "sagemaker:project-id": "p-tp8lsnxnforl",
+        "sagemaker:project-name": "project-x6",
+        "sagemaker:user-profile-arn": "arn:aws:sagemaker:ap-south-1:294897175072:user-profile/d-uwasxowh3d5n/default-1685940998555",
+        "sagemaker:domain-arn": "arn:aws:sagemaker:ap-south-1:294897175072:domain/d-uwasxowh3d5n"
+    }
+}
